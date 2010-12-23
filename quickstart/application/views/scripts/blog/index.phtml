@@ -1,0 +1,7 @@
+<?php foreach(array_reverse($this->entries) as $entry):?>
+	<h1><?php echo $entry->getTitle()?></h1>
+	<p>
+		<?php echo trim($entry->getBody())?>
+	</p>
+	<hr/>
+<?php endforeach;?>
